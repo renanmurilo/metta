@@ -1,0 +1,24 @@
+.btn {
+    width: 200px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    @include font-orbitron(14px, 500, 0, uppercase);
+    transition: all .4s;
+
+    &__primary {
+        background: transparent linear-gradient(75deg, #FFFFA4 0%, #FFD100 100%) 0% 0% no-repeat padding-box;
+        color: #000;
+        transform: scale(1);
+
+        @media (min-width: 769px) {
+            &:hover {
+                transform: scale(1.1);
+                transition: all .4s;
+            }
+        }
+    }
+}

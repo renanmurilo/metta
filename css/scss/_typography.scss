@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('../../fonts/MyriadArabic-BoldIt.woff2') format('woff2'),
+        url('../../fonts/MyriadArabic-BoldIt.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('../../fonts/MyriadArabic-Bold.woff2') format('woff2'),
+        url('../../fonts/MyriadArabic-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('../../fonts/MyriadArabic-Regular.woff2') format('woff2'),
+        url('../../fonts/MyriadArabic-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('../../fonts/MyriadArabic-It.woff2') format('woff2'),
+        url('../../fonts/MyriadArabic-It.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../../fonts/AcuminPro-Italic.woff2') format('woff2'),
+        url('../../fonts/AcuminPro-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../../fonts/AcuminPro-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/AcuminPro-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../../fonts/AcuminPro-Bold.woff2') format('woff2'),
+        url('../../fonts/AcuminPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../../fonts/AcuminPro-Regular.woff2') format('woff2'),
+        url('../../fonts/AcuminPro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin font-orbitron($font-size: 46px,
+    $font-weight: 500,
+    $letter-spacing: 1.15px,
+    $text-transform: uppercase,
+) {
+    font-family: 'Orbitron', sans-serif;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    letter-spacing: $letter-spacing;
+    text-transform: $text-transform;
+}
+
+@mixin font-myriad($font-size: 16px,
+    $font-weight: 400,
+    $letter-spacing: 1.78px,
+) {
+    font-family: 'Myriad Arabic';
+    font-size: $font-size;
+    font-weight: $font-weight;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin font-acumin($font-size: 14px,
+    $font-weight: 400,
+    $letter-spacing: 0,
+) {
+    font-family: 'Acumin Pro';
+    font-size: $font-size;
+    font-weight: $font-weight;
+    letter-spacing: $letter-spacing;
+}
