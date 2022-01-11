@@ -1441,7 +1441,7 @@
         .text__blue {
             width: 100%;
             max-width: 938px;
-            border: 2px solid #0661A0;
+            border: 2px solid #FFE33F;
             border-radius: 24px;
             height: 125px;
             padding: 23px;
@@ -1455,7 +1455,7 @@
 
             p {
                 @include font-myriad(26px, 400, 0);
-                color: #0661A0;
+                color: #FFE33F;
                 text-align: center;
                 line-height: 25px;
             }
